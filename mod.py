@@ -36,9 +36,9 @@ def esses(texto):
     new_string = ""
     for word in old_string:
         if word[-1] in vowels:
-            new_string += word + 'es '
-        else:
             new_string += word + 's '
+        else:
+            new_string += word + 'es '
     
     return new_string
 
